@@ -93,7 +93,7 @@
         const SUPABASE_URL = "https://qpduxrrsktotquuhyluq.supabase.co"; 
         const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFwZHV4cnJza3RvdHF1dWh5bHVxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkxNzkzNDgsImV4cCI6MjA5NDc1NTM0OH0.7CWmuci77f364w9Yq-Xjat_zunGO7LxVvDFUZ1BWIw4
 ";
-        const Supabase = Supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const supabase = Supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         const rows = 10; const cols = 10; const totalMines = 10;
         let boardData = [], revealedData = [], flaggedData = [];
